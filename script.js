@@ -1,15 +1,15 @@
-// Welcome Message
+// Hire Me Button
 const hireBtn = document.getElementById("hireBtn");
 
-hireBtn.addEventListener("click", function () {
-    alert("Thank you for visiting my portfolio! Please contact me through the Contact section.");
-});
+if (hireBtn) {
+    hireBtn.addEventListener("click", function () {
+        alert("Thank you for visiting my portfolio! Please contact me through the Contact section.");
+    });
+}
 
 // Download Resume
 function downloadResume() {
-    alert("Resume download will be available soon!");
-    // Later you can use:
-    // window.open("Asha_Resume.pdf");
+    window.open("resume.pdf", "_blank");
 }
 
 // Scroll to Top Button
@@ -30,9 +30,11 @@ topBtn.addEventListener("click", function () {
     });
 });
 
-// DOM Manipulation
+// Change Welcome Title
 const title = document.querySelector("#home h2");
 
-title.addEventListener("click", function () {
-    title.textContent = "Welcome to My Portfolio 🚀";
-});
+if (title) {
+    title.addEventListener("click", function () {
+        title.textContent = "Welcome to My Portfolio 🚀";
+    });
+}
