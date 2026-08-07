@@ -1,5 +1,5 @@
 /* ==========================
-   Reset & Global Styles
+    Reset & Global Styles
 ========================== */
 * {
     margin: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 /* ==========================
-   Header & Navigation
+    Header & Navigation
 ========================== */
 header {
     background: #0dfd75;
@@ -67,7 +67,7 @@ nav a:hover::after {
 }
 
 /* ==========================
-   Sections & General Elements
+    Sections & General Elements
 ========================== */
 section {
     background: white;
@@ -84,7 +84,7 @@ section:hover {
 }
 
 h2 {
-    color: #0d6efd;
+    color: #6f42c1;
     margin-bottom: 15px;
 }
 
@@ -102,14 +102,14 @@ button {
     margin: 10px;
     border: none;
     border-radius: 5px;
-    background: #0d6efd;
+    background: #6f42c1;
     color: white;
     cursor: pointer;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #084298;
+    background: #522e8d;
     transform: scale(1.05);
 }
 
@@ -131,7 +131,7 @@ button:hover {
 }
 
 /* ==========================
-   Skills Section
+    Skills Section
 ========================== */
 #skills ul {
     display: grid;
@@ -142,7 +142,7 @@ button:hover {
 }
 
 #skills li {
-    background: #0d6efd;
+    background: #6f42c1;
     color: white;
     padding: 15px;
     text-align: center;
@@ -151,12 +151,12 @@ button:hover {
 }
 
 #skills li:hover {
-    background: #084298;
+    background: #522e8d;
     transform: scale(1.05);
 }
 
 /* ==========================
-   Education Section
+    Education Section
 ========================== */
 #education {
     display: flex;
@@ -166,13 +166,13 @@ button:hover {
 
 #education article {
     flex: 1 1 300px;
-    background: #eef4ff;
+    background: #f3eefc;
     padding: 20px;
     border-radius: 10px;
 }
 
 /* ==========================
-   Projects Section
+    Projects Section
 ========================== */
 .projects-container {
     display: flex;
@@ -183,7 +183,7 @@ button:hover {
 
 .project-card {
     flex: 1 1 300px;
-    background: #eef4ff;
+    background: #f3eefc;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -196,7 +196,7 @@ button:hover {
 }
 
 /* ==========================
-   Experience Section
+    Experience Section
 ========================== */
 #experience {
     padding: 60px 20px;
@@ -206,7 +206,7 @@ button:hover {
 #experience h2 {
     text-align: center;
     font-size: 32px;
-    color: #0d6efd;
+    color: #6f42c1;
     margin-bottom: 40px;
 }
 
@@ -217,7 +217,7 @@ button:hover {
     padding: 25px 30px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    border-left: 6px solid #0d6efd;
+    border-left: 6px solid #6f42c1;
     transition: all 0.3s ease;
 }
 
@@ -227,7 +227,7 @@ button:hover {
 }
 
 .experience-card h3 {
-    color: #0d6efd;
+    color: #6f42c1;
     font-size: 24px;
     margin-bottom: 15px;
 }
@@ -254,7 +254,7 @@ button:hover {
 }
 
 /* ==========================
-   Contact Section
+    Contact Section
 ========================== */
 .contact {
     padding: 60px 20px;
@@ -263,7 +263,7 @@ button:hover {
 }
 
 .contact h2 {
-    color: #0d6efd;
+    color: #6f42c1;
     margin-bottom: 10px;
 }
 
@@ -301,14 +301,14 @@ button:hover {
 
 #contactForm input:focus,
 #contactForm textarea:focus {
-    border-color: #0d6efd;
+    border-color: #6f42c1;
     outline: none;
     transform: scale(1.02);
-    box-shadow: 0 0 10px rgba(13, 110, 253, 0.3);
+    box-shadow: 0 0 10px rgba(111, 66, 193, 0.3);
 }
 
 #contactForm button {
-    background: #0d6efd;
+    background: #6f42c1;
     color: white;
     border: none;
     padding: 12px;
@@ -319,7 +319,7 @@ button:hover {
 }
 
 #contactForm button:hover {
-    background: #084298;
+    background: #522e8d;
 }
 
 .social-links {
@@ -333,7 +333,7 @@ button:hover {
 }
 
 .social-links h3 {
-    color: #0d6efd;
+    color: #6f42c1;
     margin-bottom: 15px;
 }
 
@@ -347,7 +347,7 @@ button:hover {
 }
 
 .social-links a:hover {
-    color: #0d6efd;
+    color: #6f42c1;
     padding-left: 5px;
 }
 
@@ -357,10 +357,10 @@ button:hover {
 }
 
 /* ==========================
-   Footer & Scroll to Top
+    Footer & Scroll to Top
 ========================== */
 footer {
-    background: #0d6efd;
+    background: #6f42c1;
     color: white;
     text-align: center;
     padding: 20px;
@@ -385,7 +385,7 @@ footer a:hover {
     z-index: 99;
     border: none;
     outline: none;
-    background: #0d6efd;
+    background: #6f42c1;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -395,12 +395,12 @@ footer a:hover {
 }
 
 #topBtn:hover {
-    background: #084298;
+    background: #522e8d;
     transform: scale(1.1);
 }
 
 /* ==========================
-   Animations
+    Animations
 ========================== */
 @keyframes fadeIn {
     from {
@@ -414,7 +414,7 @@ footer a:hover {
 }
 
 /* ==========================
-   Responsive Media Queries
+    Responsive Media Queries
 ========================== */
 
 /* Mobile */
